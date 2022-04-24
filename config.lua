@@ -3,7 +3,7 @@ Config = {}
 Config.minEarn = 100
 Config.maxEarn = 450
 Config.RegisterEarnings = math.random(Config.minEarn, Config.maxEarn)
-Config.MinimumStoreRobberyPolice = 2
+Config.MinimumStoreRobberyPolice = 0
 Config.resetTime = (60 * 1000) * 30
 Config.tickInterval = 1000
 
@@ -19,7 +19,7 @@ Config.Registers = {
     [9] = {vector3(1134.15, -982.53, 46.41), robbed = false, time = 0, safeKey = 6, camId = 9},
     [10] = {vector3(1165.05, -324.49, 69.2), robbed = false, time = 0, safeKey = 7, camId = 10},
     [11] = {vector3(1164.7, -322.58, 69.2), robbed = false, time = 0, safeKey = 7, camId = 10},
-    [12] = {vector3(373.14, 328.62, 103.56), robbed = false, time = 0, safeKey = 8, camId = 11},
+    [12] = {vector3(374.62, 327.55, 103.57), robbed = false, time = 0, safeKey = 8, camId = 11}, -- 7093 right
     [13] = {vector3(372.57, 326.42, 103.56), robbed = false, time = 0, safeKey = 8, camId = 11},
     [14] = {vector3(-1818.9, 792.9, 138.08), robbed = false, time = 0, safeKey = 9, camId = 12},
     [15] = {vector3(-1820.17, 794.28, 138.08), robbed = false, time = 0, safeKey = 9, camId = 12},
@@ -50,7 +50,7 @@ Config.Safes = {
     [5] = {vector3(28.21, -1339.14, 29.49), type = "keypad", robbed = false, camId = 8},
     [6] = {vector3(1126.77, -980.1, 45.41), type = "padlock", robbed = false, camId = 9},
     [7] = {vector3(1159.46, -314.05, 69.2), type = "keypad", robbed = false, camId = 10},
-    [8] = {vector3(378.17, 333.44, 103.56), type = "keypad", robbed = false, camId = 11},
+    [8] = {vector3(380.99, 332.39, 103.57), type = "keypad", robbed = false, camId = 11}, -- 7093
     [9] = {vector3(-1829.27, 798.76, 138.19), type = "keypad", robbed = false, camId = 12},
     [10] = {vector3(-2959.64, 387.08, 14.04), type = "padlock", robbed = false, camId = 13},
     [11] = {vector3(-3047.88, 585.61, 7.9), type = "keypad", robbed = false, camId = 14},
